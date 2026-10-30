@@ -1,0 +1,12 @@
+# The labelled movie is too large for GitHub; see data/README.md
+*.tif
+*.tiff
+
+# Per-trial detector output written during tuning
+Parameter_opt/runs/detections/
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/

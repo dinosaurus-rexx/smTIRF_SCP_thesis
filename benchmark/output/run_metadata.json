@@ -1,0 +1,21 @@
+{
+  "scorer": "greedy 1:1, per-axis margin 3 px (SCP_parametrizer.compute_metrics)",
+  "match_margin_px": 3,
+  "fbeta": 1.0,
+  "region": "held-out test strip x[256,512)",
+  "x_band": [
+    256,
+    512
+  ],
+  "annotations": {
+    "target": 111,
+    "off_target": 42
+  },
+  "annotations_whole_movie": 334,
+  "labels": {
+    "coord": "data/coord.npy",
+    "class": "data/class.npy"
+  },
+  "detection_arrays": "benchmark/inputs/{alg}/{detections,selections}.npy",
+  "false_positive_rule": "every detection not matched to a target annotation"
+}
